@@ -12,6 +12,7 @@ public class ChangeCalculator {
 	public static void main(String[] args) {
 
 		// Ask the user how many nickels they have
+		print.ln
 
 		// Convert their answer to an int.   Hint: Integer.parseInt()  
 

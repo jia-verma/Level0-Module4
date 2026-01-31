@@ -36,12 +36,12 @@ public class ChangeCalculator {
 		JOptionPane.showMessageDialog(null, "How did that happen? Back in my day, teachers never scored below zero!");
 	} else if (theUsersLatestTestScoreAsADoubleCommaWhyDoWeHaveToBeKindCommaTeasingPeopleIsSoMuchFun < 67){
 		JOptionPane.showMessageDialog(null,"Its ok, we can study together, and your next test score will be amazing! You can start by learning how to calculate your own change!");
-	} else if (theUsersLatestTestScoreAsADoubleCommaWhyDoWeHaveToBeKindCommaTeasingPeopleIsSoMuchFun = 67){
-		JOptionPane.showMessageDialog("sIx SeVeN");
+	} else if (theUsersLatestTestScoreAsADoubleCommaWhyDoWeHaveToBeKindCommaTeasingPeopleIsSoMuchFun == 67){
+		JOptionPane.showMessageDialog(null,"sIx SeVeN");
 	} else if (theUsersLatestTestScoreAsADoubleCommaWhyDoWeHaveToBeKindCommaTeasingPeopleIsSoMuchFun<100){
-		JOptionPane.showMessageDialog("Just think, you got did "+ theUsersLatestTestScoreAsADoubleCommaWhyDoWeHaveToBeKindCommaTeasingPeopleIsSoMuchFun+" percent of your test perfectly!");
+		JOptionPane.showMessageDialog(null,"Just think, you got did "+ theUsersLatestTestScoreAsADoubleCommaWhyDoWeHaveToBeKindCommaTeasingPeopleIsSoMuchFun+" percent of your test perfectly!");
 	} else if (theUsersLatestTestScoreAsADoubleCommaWhyDoWeHaveToBeKindCommaTeasingPeopleIsSoMuchFun>=100){
-		JOptionPane.showMessageDialog("Wow, that is awesome! You should be so proud of yourself.");
+		JOptionPane.showMessageDialog(null,"Wow, that is awesome! You should be so proud of yourself.");
 	}
 	
 		// Convert their answer to an int.   Hint: Integer.parseInt()  
